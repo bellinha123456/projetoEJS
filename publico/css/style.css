@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, sans-serif;
+    background: rgb(0, 0, 0);
+    background-image:url(img/imgcoracao.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  
+}
+
+.login-container {
+  background :transparent;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(255, 255, 255);
+  width: 300px;
+  text-align: center;
+  color: white;
+  
+ 
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: white;
+}
+
+.mensagem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+.autenticado{
+color: white;
+}
